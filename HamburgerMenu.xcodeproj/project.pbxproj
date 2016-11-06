@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B6507B1DCF01D6009C6A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B6507A1DCF01D6009C6A2C /* AppDelegate.swift */; };
+		17B650801DCF01D6009C6A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B6507E1DCF01D6009C6A2C /* Main.storyboard */; };
+		17B650821DCF01D6009C6A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B650811DCF01D6009C6A2C /* Assets.xcassets */; };
+		17B650851DCF01D6009C6A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B650831DCF01D6009C6A2C /* LaunchScreen.storyboard */; };
+		17B650901DCF01D6009C6A2C /* HamburgerMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B6508F1DCF01D6009C6A2C /* HamburgerMenuTests.swift */; };
+		17B6509B1DCF01D6009C6A2C /* HamburgerMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B6509A1DCF01D6009C6A2C /* HamburgerMenuUITests.swift */; };
+		17B650A91DCF024E009C6A2C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B650A81DCF024E009C6A2C /* MenuViewController.swift */; };
+		17B650AB1DCF0257009C6A2C /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B650AA1DCF0257009C6A2C /* GreenViewController.swift */; };
+		17B650AD1DCF0264009C6A2C /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B650AC1DCF0264009C6A2C /* BlueViewController.swift */; };
+		17B650AF1DCF026C009C6A2C /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B650AE1DCF026C009C6A2C /* PinkViewController.swift */; };
+		17B650B11DCF0278009C6A2C /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B650B01DCF0278009C6A2C /* HamburgerViewController.swift */; };
+		17B650B51DCF04E5009C6A2C /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B650B41DCF04E5009C6A2C /* MenuTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B6508C1DCF01D6009C6A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B6506F1DCF01D6009C6A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B650761DCF01D6009C6A2C;
+			remoteInfo = HamburgerMenu;
+		};
+		17B650971DCF01D6009C6A2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B6506F1DCF01D6009C6A2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B650761DCF01D6009C6A2C;
+			remoteInfo = HamburgerMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B650771DCF01D6009C6A2C /* HamburgerMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamburgerMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B6507A1DCF01D6009C6A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17B6507F1DCF01D6009C6A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17B650811DCF01D6009C6A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17B650841DCF01D6009C6A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17B650861DCF01D6009C6A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B6508B1DCF01D6009C6A2C /* HamburgerMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburgerMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B6508F1DCF01D6009C6A2C /* HamburgerMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerMenuTests.swift; sourceTree = "<group>"; };
+		17B650911DCF01D6009C6A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B650961DCF01D6009C6A2C /* HamburgerMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburgerMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B6509A1DCF01D6009C6A2C /* HamburgerMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerMenuUITests.swift; sourceTree = "<group>"; };
+		17B6509C1DCF01D6009C6A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B650A81DCF024E009C6A2C /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		17B650AA1DCF0257009C6A2C /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		17B650AC1DCF0264009C6A2C /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		17B650AE1DCF026C009C6A2C /* PinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		17B650B01DCF0278009C6A2C /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		17B650B41DCF04E5009C6A2C /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B650741DCF01D6009C6A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B650881DCF01D6009C6A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B650931DCF01D6009C6A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B6506E1DCF01D6009C6A2C = {
+			isa = PBXGroup;
+			children = (
+				17B650791DCF01D6009C6A2C /* HamburgerMenu */,
+				17B6508E1DCF01D6009C6A2C /* HamburgerMenuTests */,
+				17B650991DCF01D6009C6A2C /* HamburgerMenuUITests */,
+				17B650781DCF01D6009C6A2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17B650781DCF01D6009C6A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B650771DCF01D6009C6A2C /* HamburgerMenu.app */,
+				17B6508B1DCF01D6009C6A2C /* HamburgerMenuTests.xctest */,
+				17B650961DCF01D6009C6A2C /* HamburgerMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B650791DCF01D6009C6A2C /* HamburgerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				17B650B31DCF04B5009C6A2C /* View Controllers */,
+				17B650B21DCF04AF009C6A2C /* Views */,
+				17B6507A1DCF01D6009C6A2C /* AppDelegate.swift */,
+				17B6507E1DCF01D6009C6A2C /* Main.storyboard */,
+				17B650811DCF01D6009C6A2C /* Assets.xcassets */,
+				17B650831DCF01D6009C6A2C /* LaunchScreen.storyboard */,
+				17B650861DCF01D6009C6A2C /* Info.plist */,
+			);
+			path = HamburgerMenu;
+			sourceTree = "<group>";
+		};
+		17B6508E1DCF01D6009C6A2C /* HamburgerMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B6508F1DCF01D6009C6A2C /* HamburgerMenuTests.swift */,
+				17B650911DCF01D6009C6A2C /* Info.plist */,
+			);
+			path = HamburgerMenuTests;
+			sourceTree = "<group>";
+		};
+		17B650991DCF01D6009C6A2C /* HamburgerMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17B6509A1DCF01D6009C6A2C /* HamburgerMenuUITests.swift */,
+				17B6509C1DCF01D6009C6A2C /* Info.plist */,
+			);
+			path = HamburgerMenuUITests;
+			sourceTree = "<group>";
+		};
+		17B650B21DCF04AF009C6A2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17B650B41DCF04E5009C6A2C /* MenuTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		17B650B31DCF04B5009C6A2C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17B650A81DCF024E009C6A2C /* MenuViewController.swift */,
+				17B650AA1DCF0257009C6A2C /* GreenViewController.swift */,
+				17B650AC1DCF0264009C6A2C /* BlueViewController.swift */,
+				17B650AE1DCF026C009C6A2C /* PinkViewController.swift */,
+				17B650B01DCF0278009C6A2C /* HamburgerViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B650761DCF01D6009C6A2C /* HamburgerMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B6509F1DCF01D7009C6A2C /* Build configuration list for PBXNativeTarget "HamburgerMenu" */;
+			buildPhases = (
+				17B650731DCF01D6009C6A2C /* Sources */,
+				17B650741DCF01D6009C6A2C /* Frameworks */,
+				17B650751DCF01D6009C6A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamburgerMenu;
+			productName = HamburgerMenu;
+			productReference = 17B650771DCF01D6009C6A2C /* HamburgerMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17B6508A1DCF01D6009C6A2C /* HamburgerMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B650A21DCF01D7009C6A2C /* Build configuration list for PBXNativeTarget "HamburgerMenuTests" */;
+			buildPhases = (
+				17B650871DCF01D6009C6A2C /* Sources */,
+				17B650881DCF01D6009C6A2C /* Frameworks */,
+				17B650891DCF01D6009C6A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B6508D1DCF01D6009C6A2C /* PBXTargetDependency */,
+			);
+			name = HamburgerMenuTests;
+			productName = HamburgerMenuTests;
+			productReference = 17B6508B1DCF01D6009C6A2C /* HamburgerMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17B650951DCF01D6009C6A2C /* HamburgerMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B650A51DCF01D7009C6A2C /* Build configuration list for PBXNativeTarget "HamburgerMenuUITests" */;
+			buildPhases = (
+				17B650921DCF01D6009C6A2C /* Sources */,
+				17B650931DCF01D6009C6A2C /* Frameworks */,
+				17B650941DCF01D6009C6A2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B650981DCF01D6009C6A2C /* PBXTargetDependency */,
+			);
+			name = HamburgerMenuUITests;
+			productName = HamburgerMenuUITests;
+			productReference = 17B650961DCF01D6009C6A2C /* HamburgerMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B6506F1DCF01D6009C6A2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Purpleblue Pty Ltd";
+				TargetAttributes = {
+					17B650761DCF01D6009C6A2C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6VET5MKAB4;
+						ProvisioningStyle = Automatic;
+					};
+					17B6508A1DCF01D6009C6A2C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6VET5MKAB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17B650761DCF01D6009C6A2C;
+					};
+					17B650951DCF01D6009C6A2C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6VET5MKAB4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17B650761DCF01D6009C6A2C;
+					};
+				};
+			};
+			buildConfigurationList = 17B650721DCF01D6009C6A2C /* Build configuration list for PBXProject "HamburgerMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17B6506E1DCF01D6009C6A2C;
+			productRefGroup = 17B650781DCF01D6009C6A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B650761DCF01D6009C6A2C /* HamburgerMenu */,
+				17B6508A1DCF01D6009C6A2C /* HamburgerMenuTests */,
+				17B650951DCF01D6009C6A2C /* HamburgerMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B650751DCF01D6009C6A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B650851DCF01D6009C6A2C /* LaunchScreen.storyboard in Resources */,
+				17B650821DCF01D6009C6A2C /* Assets.xcassets in Resources */,
+				17B650801DCF01D6009C6A2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B650891DCF01D6009C6A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B650941DCF01D6009C6A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B650731DCF01D6009C6A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B650AF1DCF026C009C6A2C /* PinkViewController.swift in Sources */,
+				17B650AB1DCF0257009C6A2C /* GreenViewController.swift in Sources */,
+				17B650B51DCF04E5009C6A2C /* MenuTableViewCell.swift in Sources */,
+				17B650A91DCF024E009C6A2C /* MenuViewController.swift in Sources */,
+				17B650AD1DCF0264009C6A2C /* BlueViewController.swift in Sources */,
+				17B6507B1DCF01D6009C6A2C /* AppDelegate.swift in Sources */,
+				17B650B11DCF0278009C6A2C /* HamburgerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B650871DCF01D6009C6A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B650901DCF01D6009C6A2C /* HamburgerMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B650921DCF01D6009C6A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B6509B1DCF01D6009C6A2C /* HamburgerMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B6508D1DCF01D6009C6A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B650761DCF01D6009C6A2C /* HamburgerMenu */;
+			targetProxy = 17B6508C1DCF01D6009C6A2C /* PBXContainerItemProxy */;
+		};
+		17B650981DCF01D6009C6A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B650761DCF01D6009C6A2C /* HamburgerMenu */;
+			targetProxy = 17B650971DCF01D6009C6A2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B6507E1DCF01D6009C6A2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B6507F1DCF01D6009C6A2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17B650831DCF01D6009C6A2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B650841DCF01D6009C6A2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B6509D1DCF01D6009C6A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17B6509E1DCF01D6009C6A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B650A01DCF01D7009C6A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VET5MKAB4;
+				INFOPLIST_FILE = HamburgerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleblue.HamburgerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17B650A11DCF01D7009C6A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VET5MKAB4;
+				INFOPLIST_FILE = HamburgerMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleblue.HamburgerMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		17B650A31DCF01D7009C6A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VET5MKAB4;
+				INFOPLIST_FILE = HamburgerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleblue.HamburgerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburgerMenu.app/HamburgerMenu";
+			};
+			name = Debug;
+		};
+		17B650A41DCF01D7009C6A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VET5MKAB4;
+				INFOPLIST_FILE = HamburgerMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleblue.HamburgerMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamburgerMenu.app/HamburgerMenu";
+			};
+			name = Release;
+		};
+		17B650A61DCF01D7009C6A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6VET5MKAB4;
+				INFOPLIST_FILE = HamburgerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleblue.HamburgerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HamburgerMenu;
+			};
+			name = Debug;
+		};
+		17B650A71DCF01D7009C6A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6VET5MKAB4;
+				INFOPLIST_FILE = HamburgerMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.purpleblue.HamburgerMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HamburgerMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B650721DCF01D6009C6A2C /* Build configuration list for PBXProject "HamburgerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B6509D1DCF01D6009C6A2C /* Debug */,
+				17B6509E1DCF01D6009C6A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B6509F1DCF01D7009C6A2C /* Build configuration list for PBXNativeTarget "HamburgerMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B650A01DCF01D7009C6A2C /* Debug */,
+				17B650A11DCF01D7009C6A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B650A21DCF01D7009C6A2C /* Build configuration list for PBXNativeTarget "HamburgerMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B650A31DCF01D7009C6A2C /* Debug */,
+				17B650A41DCF01D7009C6A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B650A51DCF01D7009C6A2C /* Build configuration list for PBXNativeTarget "HamburgerMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B650A61DCF01D7009C6A2C /* Debug */,
+				17B650A71DCF01D7009C6A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B6506F1DCF01D6009C6A2C /* Project object */;
+}
