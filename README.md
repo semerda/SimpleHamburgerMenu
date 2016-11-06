@@ -1,6 +1,6 @@
-# Week 4 - *Simple Hamburger Menu*
+# Simple Hamburger Menu
 
-**Using Green, Blue and Pink slides to demonstrate how to create a Hamburger Menu in Swift 3.
+Using Green, Blue and Pink slides to demonstrate how to create a Hamburger Menu in Swift 3.
 
 ## License
 
